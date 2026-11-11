@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+# Env
+.env
+.env.local
+server/.env
+client/.env
+# Builds
+server/logs/
+client/dist/
+client/build/
+# OS
+.DS_Store
+Thumbs.db
+# Logs
+*.log
+npm-debug.log*
+# Uploads local
+server/uploads/
+# Misc
+coverage/
+.nyc_output/
